@@ -1,0 +1,15 @@
+﻿<Window x:Class="Socket_4I.AggiungiContatto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Socket_4I"
+        mc:Ignorable="d"
+        Title="AggiungiContatto" Height="500" Width="450">
+    <Grid>
+        <Label Content="Inserire Indirizzo IP:" HorizontalAlignment="Center" Margin="0,90,0,0" VerticalAlignment="Top" Width="150" FontSize="16"/>
+        <TextBox x:Name="txtIndirizzo" HorizontalAlignment="Center" Margin="0,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" FontSize="16"/>
+        <Button x:Name="btnAggiungi" Content="Aggiungi" HorizontalAlignment="Center" Margin="0,257,0,0" VerticalAlignment="Top" Height="63" Width="150" FontSize="16" Click="btnAggiungi_Click"/>
+
+    </Grid>
+</Window>
